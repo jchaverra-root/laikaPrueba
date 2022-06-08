@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Causten Round Semi Bold Oblique;
+    src: url(fuentes/Causten-SemiBold.otf);
+}
+.bg-gris {
+    background-color: #F0F1F3;
+}
+.bg-morado {
+    background-color: #603E85;
+    color: white;
+}
+.bg-morado:hover {
+    background-color: #603E85;
+    color: white;
+}
+.bg-morado:disabled {
+    background-color: #9877bb;
+    color: white;
+}
+.font14 {
+    font-size: 14px;
+}
+#divEncabezado1 {
+    background-color: #603E85;
+    color: white;
+}
+#divEncabezado1 span, .divEncabezado2 {
+    font-weight: bolder; 
+}
+#divEncabezado1 span {
+    border-right: 1px solid;
+    padding-right: 11px;
+}
+#divEncabezado1 span:last-child {
+    border-right: 0px; 
+    padding-right: 0px; 
+}
+#divEncabezado1 a{
+    cursor: pointer;
+}
+.borderBoxMarcas {
+    border: 1px solid rgba(204,204,204,.445);
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 0%;
+    /* transition: all 1s; */
+}
+/* BTN-WHATSAPP */
+.btn-wsp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    bottom: 30px;
+    right: 30px;
+    background: rgb(30, 190, 165);
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 45px;
+    box-shadow: rgba(53, 53, 53, 0.8);
+    z-index: 100;
+    
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    color: whitesmoke;    
+    background: rgb(0, 230, 118);
+}
+/* BTN-WHATSAPP */
+
+.btn:hover{
+    border: #603E85;
+}
+.btn.focus, .btn:focus, .form-control.focus, .form-control:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem #603E85;
+    border: #603E85;
+}
+.btn::selection {
+    border: #603E85;
+}
+
+.btnBuscar:hover {
+    color: #472F62;
+}
+.btn-link {
+    font-weight: bolder;
+    color: #603E85;
+    text-decoration: none;    
+}
+.buscador {
+    height: calc(1em + 0.75rem + 1px);
+}
+.list-group-item {
+    border: 0px solid rgba(0,0,0,.125);
+}
+#divSlider {
+    padding-top: 135px;
+}
+@media (min-width: 50px) and (max-width: 1200px) {
+
+    #divSlider {
+        padding-top: 105px;
+    }
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 20px;
+    outline: 0;
+}
+.form-control, .form-control.focus, .form-control:focus{
+    background-color: #F2F2F2;
+    color: black;
+    font-weight: bold;
+}
+#btnBlanco{
+    color: #472F62;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    border: 1px solid #472F62;
+}
+
+.dropdown-item {
+    color: #472F62;
+    font-weight: bolder;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #472F62;
+    color: white;
+}
+#aCategoria {
+    color: #603E85;
+    background-color: transparent;
+}
+
+
+
+
+
